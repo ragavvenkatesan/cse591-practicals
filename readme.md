@@ -1,4 +1,5 @@
-This repository contains practice codes from the course CSE 591: Deep Learning for Visual Computing
+This repository contains practice codes from the course 
+[CSE 591: Deep Learning for Visual Computing](http://www.ragav.net/cse591)
 during the Spring of 2017 at Arizona State University. The codes here are only for illustrative 
 purposes.
 
