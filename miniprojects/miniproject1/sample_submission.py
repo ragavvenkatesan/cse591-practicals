@@ -14,9 +14,12 @@ class regressor(object):
                           
     """
     def __init__(self, data):
-        self.x, self.y = data
+        self.x, self.y = data        
         # Here is where your training and all the other magic should happen. 
-
+        # Once trained you should have these parameters with ready. 
+        self.w = np.random.rand(self.x.shape[1],1)
+        self.b = np.random.rand(1)
+        
     def get_params (self):
         """ 
         Method that should return the model parameters.
@@ -28,9 +31,6 @@ class regressor(object):
             This code will return a random numpy array for demonstration purposes.
 
         """
-        # You can remove the next two lines and this method should be done.
-        self.w = np.random.rand(self.x.shape[1],1)
-        self.b = np.random.rand(1)
         return (self.w, self.b)
 
     def get_predictions (self, x):
