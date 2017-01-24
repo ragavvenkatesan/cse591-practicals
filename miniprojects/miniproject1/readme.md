@@ -19,9 +19,6 @@ Installation
 
 Run the code ``test_script.py``. Have fun!
 
-Setup
-+++++
-
 Use pip insallers to get these packages.
 
     pip install numpy
