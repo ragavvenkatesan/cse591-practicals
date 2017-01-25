@@ -8,16 +8,20 @@ imshow(img,'original image')
 # Create filters
 differentials = np.asarray([-1,0,1])
 
-dx = imfilter(input = img, weights = differentials, axis = 0)
-dy = imfilter(input = img, weights = differentials, axis = 1)
+dx = imfilter(input = img, weights = differentials, axis = 0)  # This filters straight.
+dy = imfilter(input = img, weights = differentials, axis = 1)  # This filters transposed.
 
+# Display the differentials.
 imshow(dx,'dx')
 imshow(dy,'dy')
 
+edge_map_threshold = 10     # This is the threshold above which, we shall call a differential an
+                            # edge.
+
 dx_em = np.zeros(dx.shape)
-dx_em[dx > 10] = 255
+dx_em[dx > edge_map_threshold] = 255
 dy_em = np.zeros(dy.shape)
-dy_em[dy > 10] = 255
+dy_em[dy > edge_map_threshold] = 255
 
 
 imshow(dx_em,'dx_em')
