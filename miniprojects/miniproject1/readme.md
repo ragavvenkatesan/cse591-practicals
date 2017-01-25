@@ -22,12 +22,10 @@ Run the code ``test_script.py``. Have fun!
 Use pip insallers to get these packages.
 
     pip install numpy
-    pip install scipy
 
 For those who want to use anaconda distributions of python, use
 
     conda install numpy
-    conda install scipy
 
 Submissions
 -----------
