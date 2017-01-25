@@ -46,7 +46,7 @@ of the code of academic integrity will be reported to the dean for official acti
 academic violation to copy, to include text from other sources, including online sources for both
 material and code, without proper citation and licensing. To get a better idea of what constitutes 
 plagiarism, consult the 
-[ASU policy on student obligations](https://provost.asu.edu/academicintegrity/policy). 
+[ASU policy on student obligations](https://provost.asu.edu/academic-integrity). 
 This is a serious violation and evidence of plagiarism or academic dishonesty, will likely result
 in failing the course and at worse can lead to disqualification from your degree program. Please 
 contact the instructor before borrowing material when unsure. Your code might be run through a 
