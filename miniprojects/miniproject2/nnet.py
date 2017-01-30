@@ -1,7 +1,16 @@
-# will ``sample_submission`` to your submission filename.
-
-from sample_submission import regressor
 import numpy as np
+
+def sigmoid ( a ):
+    """
+    This method activates pointwise all elements of the arrays. 
+
+    Args:
+        a: input array.
+
+    Returns:
+        np.ndarray: same size and shape as a.
+    """
+    return 1.0/(1.0 + np.exp(-a))
 
 def rmse ( a,  b ): 
     """
@@ -20,21 +29,25 @@ def rmse ( a,  b ):
     """        
     return np.sqrt(np.mean((a - b) ** 2))
 
-class dataset_generator(object):
+class xor(object):
     """ 
-    Class that creates a random dataset. Note that for the grading of the project, this method 
+    Class that creates a xor dataset. Note that for the grading of the project, this method 
     might be changed, although it's output format will not be. This implies we might use other
     methods to create data. You must assume that the dataset will be blind and your machine is 
     capable of running any dataset.
     
     Args:
-        dimensions: number of dimensions of dataset (optional, default randomly 15-30)
-        mu: mean of the gaussian with which we add noise (optional, default 0)
+        mu: tuple, means of the gaussian with which we add noise (optional, default 0)
         sigma: variance of the gaussian with which we add noise (optional, default 0.1)
     """    
     def __init__(self, **kwargs):
-        low = 15
-        high = 30
+        low = 200
+        high = 400
+        if 'num_layers' in kwargs.keys():
+            self.num_layers = kwargs['num_layers']
+        else:
+            self.num_layers = 2
+
         if 'dimensions' in kwargs.keys():
             self.dimensions = kwargs['dimensions']
         else:
@@ -48,8 +61,11 @@ class dataset_generator(object):
         else:
             self.sigma = 0.1
 
-        self.w = np.random.rand(self.dimensions,1)
-        self.b = np.random.rand(1)
+        self.w = []
+        self.b = []
+        for layer in xrange(self.num_layers):
+            self.w.append ( np.random.rand(self.dimensions,1) )
+            self.b.append ( np.random.rand(1) )
 
     def query_data(self, **kwargs):
         """
@@ -68,19 +84,9 @@ class dataset_generator(object):
         else:
             samples = np.random.randint(low = 1000, high = 5000)
 
-        x = np.random.uniform(size = (samples,self.dimensions))        
-        y = np.dot(x,self.w) + np.random.normal(self.mu, self.sigma, (samples,1)) + self.b
+        y_temp = np.random.normal(size = (samples,self.dimensions))    
+        for layer in xrange(self.num_layers):
+            y_temp = sigmoid(np.dot(y_temp,self.w[layer]) + np.random.normal(self.mu, self.sigma,
+                                (samples,1)) + self.b[layer] )
         
         return (x,y)
-
-if __name__ == '__main__':
-    
-    dg = dataset_generator() # Initialize a dataset creator
-    data_train = dg.query_data(samples = 5000) # Create a random training dataset.
-    r = regressor(data_train)  # This call should return a regressor object that is fully trained.
-    params = r.get_params()    # This call should reaturn parameters of the model that are 
-                               # fully trained.
-
-    data_test = dg.query_data(samples = 5000)  # Create a random testing dataset.
-    predictions = r.get_predictions(data_test[0]) # This call should return predictions.
-    print "Rmse error of predictions = " + str(rmse(data_test[1], predictions))

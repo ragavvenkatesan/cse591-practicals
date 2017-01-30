@@ -47,7 +47,7 @@ class regressor(object):
             Temporarily returns random numpy array for demonstration purposes.                            
         """        
         # Here is where you write a code to evaluate the data and produce predictions.
-        return np.random.rand(self.x.shape[0])
+        return np.random.rand(self.x.shape[1])
 
 if __name__ == '__main__':
     pass 
