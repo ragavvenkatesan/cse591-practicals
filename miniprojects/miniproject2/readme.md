@@ -23,3 +23,5 @@ Use pip insallers to get these packages.
 
     pip install numpy
     pip install matplotlib
+    pip install pillow
+    pip install scipy    
