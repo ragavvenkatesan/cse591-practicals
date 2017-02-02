@@ -194,7 +194,7 @@ class waldo(object):
         
         return (data,labels)
             
-    def _demo(self, type = 1):
+    def _demo(self):
         """
         This is a demonstration method that will display a random positive and negative samples.
         """
