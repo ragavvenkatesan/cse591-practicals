@@ -179,7 +179,7 @@ class waldo(object):
         if 'samples' in kwargs.keys():
             samples = kwargs['samples']
         else:
-            samples = np.random.randint(low = 1000, high = 5000)  
+            samples = np.random.randint(low = 100, high = 500)  
 
         # Create dummy arrays
         data = np.zeros((samples,self.sample_height*self.sample_width))
