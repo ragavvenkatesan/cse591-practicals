@@ -123,9 +123,9 @@ class waldo(object):
 
         img = imread(img)  # Load the image
         self.waldo = rgb2gray(img)   # convert to grayscale        
-        self.reshape_low_height = np.floor(self.sample_height * 0.5)  
+        self.reshape_low_height = np.floor(self.sample_height * 0.35)  
         self.reshape_high_height = np.floor(self.sample_height * 0.95)
-        self.reshape_low_width = np.floor(self.sample_width * 0.5)  
+        self.reshape_low_width = np.floor(self.sample_width * 0.35)  
         self.reshape_high_width = np.floor(self.sample_width * 0.95)
 
     def _query_positive_sample (self):
