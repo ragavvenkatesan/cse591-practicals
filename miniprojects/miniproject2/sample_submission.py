@@ -46,7 +46,7 @@ class xor_net(object):
             Temporarily returns random numpy array for demonstration purposes.                            
         """        
         # Here is where you write a code to evaluate the data and produce predictions.
-        return np.random.randint(low =0, high =1, size = self.x.shape[0])
+        return np.random.randint(low =0, high = 2, size = x.shape[0])
 
 class mlnn(xor_net):
     """

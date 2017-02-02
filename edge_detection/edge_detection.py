@@ -1,6 +1,9 @@
 
 from imgutils import *
 from scipy.ndimage import convolve1d as imfilter
+import sys
+sys.path.append( '../core' )
+from imgutils import *
 
 img = imread('led.jpg')  # Load the image
 img = rgb2gray(img)   # convert to grayscale
