@@ -66,6 +66,14 @@ if __name__ == '__main__':
     waldo_acc = test_waldo()   
 
     weight = np.random.uniform(low = 0.3, high = 0.7)
-    mix = weight* xor_acc + (1-weight) * waldo_acc
-    print "Grade = " + str( 2.5 + (mix / 100) )
+    # This means that if you score 0.9 on random weighted average,
+    #  I will give you full grade essentially...
+
+    mix = min(100, weight* xor_acc + (1-weight) * waldo_acc + 10)
+
+    # 3+ points minimum for either getting a code that works, or submitting the same code as it is.
+    # Grader will check if code produces random number like what the sample does, then he will give 
+    # you a zero. 
+    grade = 2 + (mix / 50)    
+    print "Grade = " + str( grade )
 
