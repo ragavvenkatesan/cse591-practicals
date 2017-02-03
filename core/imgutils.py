@@ -4,6 +4,45 @@ import numpy as np
 from skimage.util import random_noise as imnoise
 from scipy.misc import imresize 
 
+def whiten(img):
+    """
+	Function that takes as input one grayscale image array and returns a whitenend image. It applies 
+	the following transform:
+
+	.. math::
+	
+		I = \frac{I - mean(I)}{var(I)} + min(\frac{I - mean(I)}{var(I)})
+
+	Args:
+		img: ``numpy ndarray`` of a two-dimensional image  of the form 
+									< height, width >
+
+	Returns:
+		numpy ndarray: gray
+	"""
+    img = (img - img.mean())/img.std()
+    img = img + img.min()
+    return img
+
+def normalize(img):
+    """
+	Function that takes as input one grayscale image array and returns a normalized image. It applies 
+	the following transform:
+
+	.. math::
+	
+		I = \frac{I}{max(I)}
+
+	Args:
+		img: ``numpy ndarray`` of a two-dimensional image  of the form 
+									< height, width >
+
+	Returns:
+		numpy ndarray: gray
+	"""
+    return img / img.max()
+    
+
 def imread( infile ) :
     """
     Takes a string as input and outputs a image.

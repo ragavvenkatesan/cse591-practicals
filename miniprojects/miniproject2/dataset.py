@@ -122,7 +122,8 @@ class waldo(object):
                 self.var = 0.7
 
         img = imread(img)  # Load the image
-        self.waldo = rgb2gray(img)   # convert to grayscale        
+        self.waldo = rgb2gray(img)   # convert to grayscale  
+        self.waldo = normalize(self.waldo)      
         self.reshape_low_height = np.floor(self.sample_height * 0.35)  
         self.reshape_high_height = np.floor(self.sample_height * 0.95)
         self.reshape_low_width = np.floor(self.sample_width * 0.35)  
@@ -135,12 +136,12 @@ class waldo(object):
         Notes:
             This creates one sample. 
         """     
-        sample = np.random.randint(low = 0, high = 256, 
-                                    size = (self.sample_height, self.sample_width))
+        sample = self._query_negative_sample().reshape(self.sample_height, self.sample_width)      
         rshp = (np.random.randint (low = self.reshape_low_height, high =self.reshape_high_height + 1),
                 np.random.randint (low = self.reshape_low_width, high = self.reshape_high_width + 1))
         waldo_reshaped = imresize(self.waldo, size = rshp)
-        waldo_sample = imnoise(waldo_reshaped, mode = 'gaussian', var = self.var, clip = True) *255     
+        waldo_sample = imnoise(waldo_reshaped, mode = 'gaussian', var = self.var, clip = True)  
+        waldo_sample = imnoise(waldo_sample, mode = 's&p', clip = True) * 255
         current_waldo_height = waldo_sample.shape[0]
         current_waldo_width = waldo_sample.shape[1] 
         height_low = 1
@@ -150,7 +151,9 @@ class waldo(object):
         waldo_x_pos = np.random.randint(low = height_low, high = height_high + 1)
         waldo_y_pos = np.random.randint(low = width_low, high = width_high + 1)
         sample[ waldo_x_pos : waldo_x_pos + current_waldo_height,
-                waldo_y_pos : waldo_y_pos + current_waldo_width ] = waldo_sample
+                waldo_y_pos : waldo_y_pos + current_waldo_width ] = 0.7 * waldo_sample + \
+                0.3 * sample[ waldo_x_pos : waldo_x_pos + current_waldo_height,
+                        waldo_y_pos : waldo_y_pos + current_waldo_width ]               
         return np.asarray(sample,dtype = 'uint8').flatten()
 
     def _query_negative_sample (self):

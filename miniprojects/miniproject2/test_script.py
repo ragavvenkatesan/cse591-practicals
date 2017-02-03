@@ -35,7 +35,9 @@ def test_xor():
     testing_data, testing_labels = dg.query_data(samples = 100)  # Create a random testing dataset.
     predictions = n.get_predictions(testing_data) # This call should return predictions.
 
-    print "Accuracy of predictions on XOR data = " + str(accuracy(testing_labels, predictions)) + "%"
+    acc = accuracy(testing_labels, predictions)
+    print "Accuracy of predictions on XOR data = " + str(acc) + "%"
+    return acc
 
 def test_waldo():
     """
@@ -51,12 +53,19 @@ def test_waldo():
     testing_data, testing_labels = dg.query_data(samples = 100) 
     predictions = n.get_predictions(testing_data) # This call should return predictions.
 
-    print "Accuracy of predictions on waldo data = " + str(accuracy(testing_labels, predictions)) + "%" 
+    acc = accuracy(testing_labels, predictions)
+    print "Accuracy of predictions on waldo data = " + str(acc) + "%" 
+    return acc
 
 if __name__ == '__main__':
     
     # Part 1 of the project. 
-    test_xor()
+    xor_acc = test_xor()
     
     # Part 2 of the project.
-    test_waldo()   
+    waldo_acc = test_waldo()   
+
+    weight = np.random.uniform(low = 0.3, high = 0.7)
+    mix = weight* xor_acc + (1-weight) * waldo_acc
+    print "Grade = " + str( 2.5 + (mix / 100) )
+
