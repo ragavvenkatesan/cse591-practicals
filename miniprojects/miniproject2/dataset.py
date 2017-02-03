@@ -96,7 +96,7 @@ class waldo(object):
     Args:
         dimensions: <tuple> the dimensions of image (optional, default randomly (28,28)) 
         noise: controls the variance of the noise being applied.    
-        img: load and use an image that is not default ('waldo.jpg')
+        img: <tuple>load and use an image that is not default ('waldo.jpg', 'not_waldo.jpg')
     """    
     def __init__(self, **kwargs):
         if 'dimensions' in kwargs.keys():
@@ -107,53 +107,59 @@ class waldo(object):
             self.sample_width = 28
             
         if 'img' in kwargs.keys():
-            img = kwargs['img']
+            img_waldo, img_not_waldo = kwargs['img']
         else:
-            img = 'waldo.jpg'            
+            img_waldo, img_not_waldo = ('waldo.jpg','not_waldo.jpg')
 
         if 'noise' in kwargs.keys():
             self.var = kwargs['noise']
         else:
             if self.sample_width < 32 and self.sample_height < 32:
-                self.var = 0.05
+                self.var = 0.02
             elif self.sample_width < 64 and self.sample_heigh < 64:
-                self.var = 0.2
+                self.var = 0.07
             else:
-                self.var = 0.7
+                self.var = 0.1
 
-        img = imread(img)  # Load the image
+        img = imread(img_waldo)  # Load the image
         self.waldo = rgb2gray(img)   # convert to grayscale  
-        self.waldo = normalize(self.waldo)      
+        self.waldo = normalize(self.waldo)     
+
+        img = imread(img_not_waldo)
+        self.not_waldo = rgb2gray(img)
+        self.not_waldo = normalize(self.not_waldo) 
+
         self.reshape_low_height = np.floor(self.sample_height * 0.35)  
         self.reshape_high_height = np.floor(self.sample_height * 0.95)
         self.reshape_low_width = np.floor(self.sample_width * 0.35)  
         self.reshape_high_width = np.floor(self.sample_width * 0.95)
 
-    def _query_positive_sample (self):
+    def _query_sample (self, img):
         """
-        This is an internal method that creates positive data samples. 
+        This is an internal method that creates a data samples. 
 
         Notes:
             This creates one sample. 
         """     
-        sample = self._query_negative_sample().reshape(self.sample_height, self.sample_width)      
+        sample = np.random.randint(low = 0, high = 256, 
+                                        size = (self.sample_height, self.sample_width))             
         rshp = (np.random.randint (low = self.reshape_low_height, high =self.reshape_high_height + 1),
                 np.random.randint (low = self.reshape_low_width, high = self.reshape_high_width + 1))
-        waldo_reshaped = imresize(self.waldo, size = rshp)
-        waldo_sample = imnoise(waldo_reshaped, mode = 'gaussian', var = self.var, clip = True)  
-        waldo_sample = imnoise(waldo_sample, mode = 's&p', clip = True) * 255
-        current_waldo_height = waldo_sample.shape[0]
-        current_waldo_width = waldo_sample.shape[1] 
+        img_reshaped = imresize(img, size = rshp)
+        img_sample = imnoise(img_reshaped, mode = 'gaussian', var = self.var, clip = True)  
+        img_sample = imnoise(img_sample, mode = 's&p', clip = True) * 255
+        current_img_height = img_sample.shape[0]
+        current_img_width = img_sample.shape[1] 
         height_low = 1
-        height_high = self.sample_height - current_waldo_height - 1
+        height_high = self.sample_height - current_img_height - 1
         width_low = 1
-        width_high = self.sample_width - current_waldo_width - 1
-        waldo_x_pos = np.random.randint(low = height_low, high = height_high + 1)
-        waldo_y_pos = np.random.randint(low = width_low, high = width_high + 1)
-        sample[ waldo_x_pos : waldo_x_pos + current_waldo_height,
-                waldo_y_pos : waldo_y_pos + current_waldo_width ] = 0.7 * waldo_sample + \
-                0.3 * sample[ waldo_x_pos : waldo_x_pos + current_waldo_height,
-                        waldo_y_pos : waldo_y_pos + current_waldo_width ]               
+        width_high = self.sample_width - current_img_width - 1
+        img_x_pos = np.random.randint(low = height_low, high = height_high + 1)
+        img_y_pos = np.random.randint(low = width_low, high = width_high + 1)
+        sample[ img_x_pos : img_x_pos + current_img_height,
+                img_y_pos : img_y_pos + current_img_width ] = 0.7 * img_sample + \
+                0.3 * sample[ img_x_pos : img_x_pos + current_img_height,
+                        img_y_pos : img_y_pos + current_img_width ]               
         return np.asarray(sample,dtype = 'uint8').flatten()
 
     def _query_negative_sample (self):
@@ -163,9 +169,18 @@ class waldo(object):
         Notes:
             This creates one sample. 
         """             
-        sample = np.random.randint(low = 0, high = 256, 
-                                    size = (self.sample_height, self.sample_width))
-        return np.asarray(sample,dtype = 'uint8').flatten()
+        sample = self._query_sample(img = self.not_waldo)
+        return sample
+
+    def _query_positive_sample (self):
+        """
+        This is an internal method that creates positive data samples. 
+
+        Notes:
+            This creates one sample. 
+        """             
+        sample = self._query_sample(img = self.waldo)
+        return sample        
 
     def query_data (self, **kwargs):
         """
