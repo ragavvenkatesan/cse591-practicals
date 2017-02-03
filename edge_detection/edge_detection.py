@@ -1,5 +1,3 @@
-
-from imgutils import *
 from scipy.ndimage import convolve1d as imfilter
 import sys
 sys.path.append( '../core' )
