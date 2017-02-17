@@ -2,8 +2,8 @@ Mini Project 2
 ==============
 
 This is an independent project.  In this project you will setup the yann toolbox on your machine
-and run the 
-[multi-layer neural network tutorial]("http://yann.readthedocs.io/en/master/pantry/tutorials/mlp.html").
+and run the
+[multi-layer neural network tutorial](http://yann.readthedocs.io/en/master/pantry/tutorials/mlp.html).
 You will run this with several settings: without any momentum, with Polyak and Nesterov Momentums
 with adagrad and rmsprop (you will need to refer other tutorials or the API to figure out how 
 to do these). For each of these settings to work efficiently, you need to experiment with various
@@ -12,7 +12,7 @@ one setting (one file) that will produce the best result as you can best produce
 
 The submission for this project is a zip file containing a screen shot of the test output of the
 base tutorial code, your codes for your best setting and a one-page report. The one-page report will
-be typeset in the [camera-ready]("https://www.computer.org/web/tpami/author")
+be typeset in the [camera-ready](https://www.computer.org/web/tpami/author)
 style of IEEE TPAMI.
 
 The report should contain results, analysis and discussion comparing the three network models 
