@@ -13,6 +13,7 @@ itself in [napolean](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/exam
 format, which is popular among most deep learning python programmers and is a common style guide.  
 For all the methods that you create, appropriate documentation must be provided in similar style. 
 
+Best solution is added to the git. Solution provided by @avinashkaitha93 . 
 
 Installation
 ------------
