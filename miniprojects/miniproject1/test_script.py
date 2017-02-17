@@ -1,6 +1,11 @@
 # will ``sample_submission`` to your submission filename.
 
-from sample_submission import regressor
+# from sample_submission import regressor
+from best_solution import regressor
+# best_solution is a file that contains the submission of the student Avinash Kaitha. This 
+# solution provided the best result in the class. 
+## 
+
 import numpy as np
 
 def rmse ( a,  b ): 
