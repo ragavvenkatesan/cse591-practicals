@@ -1,7 +1,7 @@
 ### Optimization / Training Techniques
 
 | Id | Schedule | Paper(s) | Link(s) | 
-| ---------|:--------:| -----:|------:|
+|----|----------|----------|---------|
 | 1. |  | Batch normalization: Accelerating deep network training by reducing internal covariate shift (2015), S. Loffe and C. Szegedy | [[pdf]](http://arxiv.org/pdf/1502.03167) |
 | 2. |  | Adam: A method for stochastic optimization (2014), D. Kingma and J. Ba | [[pdf]](http://arxiv.org/pdf/1412.6980) |
 | 3. |  | Layer Normalization (2016), J. Ba et al. | [[pdf]](https://arxiv.org/pdf/1607.06450v1.pdf) |
