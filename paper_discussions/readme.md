@@ -27,6 +27,8 @@
 
 
 ### Network Architecture
+| Id | Schedule | Presenter | Paper(s) | Link(s) | 
+|----|----------|-----------|----------|---------|
 | 15. |  |  | Identity Mappings in Deep Residual Networks (2016), K. He et al. | [[pdf]](https://arxiv.org/pdf/1603.05027v2.pdf) |
 |     |  |  | Deep residual learning for image recognition (2016), K. He et al. | [[pdf]](http://arxiv.org/pdf/1512.03385) |
 | 16. |  |  | Deep networks with stochastic depth (2016), G. Huang et al., [[pdf]](https://arxiv.org/pdf/1603.09382) |
@@ -40,6 +42,8 @@
 
 
 ## Network compression.
+| Id | Schedule | Presenter | Paper(s) | Link(s) | 
+|----|----------|-----------|----------|---------|
 | 22. |  |  | Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding (2015), S. Han et al. | [[pdf]](https://arxiv.org/pdf/1510.00149) |
 | 23. |  |  | Unifying distillation and priviliged information (2017) Lopez-paz et. al, | [[pdf]](http://leon.bottou.org/publications/pdf/iclr-2016.pdf) |
 | 24. |  |  | Optimal Brain Damage (1989) Y. LeCun et. al, | [[pdf]] (http://yann.lecun.com/exdb/publis/pdf/lecun-90b.pdf) |
