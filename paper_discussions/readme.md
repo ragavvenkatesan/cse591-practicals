@@ -22,9 +22,7 @@
 |     |  |  | Learning from Simulated and Unsupervised Images through Adversarial Training (2016) Shrivatsava et al., | [[pdf]](https://arxiv.org/pdf/1612.07828.pdf) |
 | 11. |  |  | Wasserstein GAN, M. Arjovsky et al. | [[pdf]](https://arxiv.org/pdf/1701.07875v1) |
 | 12. |  |  | Energy-based Generative Adversarial Network (2016) Zhao et. al, | [[pdf]](https://arxiv.org/pdf/1609.03126.pdf) |
-| 13. |  |  | Transforming Autoencoders (2012), G. Hinton et al., | [[pdf]](http://www.cs.toronto.edu/~fritz/absps/transauto6.pdf)[[Thesis]](http://www.sidaw.xyz/pubs/wang2011trans-thesis.pdf)
-
-
+| 13. |  |  | Transforming Autoencoders (2012), G. Hinton et al., | [[pdf]](http://www.cs.toronto.edu/~fritz/absps/transauto6.pdf)
 
 ### Network Architecture
 | Id | Schedule | Presenter | Paper(s) | Link(s) | 
