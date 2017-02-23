@@ -13,28 +13,15 @@
 
 
 ### Unsupervised / Generative Models
-| Paper id | Schedule | Paper | Links | 
-| ---------|:--------:| -----:|------:|
-
-| 9. |  | Generative adversarial nets (2014), I. Goodfellow et al. | 
-[[pdf]](http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf) |
-
-| 10. |  | Improved techniques for training GANs (2016), T. Salimans et al. |
-[[pdf]](http://papers.nips.cc/paper/6125-improved-techniques-for-training-gans.pdf) |
-
-|     |  | Unsupervised representation learning with deep convolutional generative adversarial 
-networks (2015), A. Radford et al. | [[pdf]](https://arxiv.org/pdf/1511.06434v2) |
-
-| 11. |  | InfoGAN: Interpretable Representation Learning by Information Maximizing Generative
- Adversarial Nets (2016), Xi Chen et. al, | [[pdf]](https://arxiv.org/pdf/1606.03657.pdf) |
-
-|     |  | Learning from Simulated and Unsupervised Images through Adversarial Training (2016)
- Shrivatsava et al., | [[pdf]](https://arxiv.org/pdf/1612.07828.pdf) |
-
+| Id | Schedule | Paper(s) | Link(s) | 
+|----|----------|----------|---------|
+| 9. |  | Generative adversarial nets (2014), I. Goodfellow et al. | [[pdf]](http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf) |
+| 10. |  | Improved techniques for training GANs (2016), T. Salimans et al. | [[pdf]](http://papers.nips.cc/paper/6125-improved-techniques-for-training-gans.pdf) |
+|     |  | Unsupervised representation learning with deep convolutional generative adversarial networks (2015), A. Radford et al. | [[pdf]](https://arxiv.org/pdf/1511.06434v2) |
+| 11. |  | InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets (2016), Xi Chen et. al, | [[pdf]](https://arxiv.org/pdf/1606.03657.pdf) |
+|     |  | Learning from Simulated and Unsupervised Images through Adversarial Training (2016) Shrivatsava et al., | [[pdf]](https://arxiv.org/pdf/1612.07828.pdf) |
 | 12. |  | Wasserstein GAN, M. Arjovsky et al. | [[pdf]](https://arxiv.org/pdf/1701.07875v1) |
-
-| 13. |  | Energy-based Generative Adversarial Network (2016) Zhao et. al, | 
-[[pdf]](https://arxiv.org/pdf/1609.03126.pdf) |
+| 13. |  | Energy-based Generative Adversarial Network (2016) Zhao et. al, | [[pdf]](https://arxiv.org/pdf/1609.03126.pdf) |
 
 
 ### Network Architecture
