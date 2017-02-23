@@ -1,27 +1,27 @@
 ### Optimization / Training Techniques
 
-| Id | Schedule | Paper(s) | Link(s) | 
-|----|----------|----------|---------|
-| 1. |  | Batch normalization: Accelerating deep network training by reducing internal covariate shift (2015), S. Loffe and C. Szegedy | [[pdf]](http://arxiv.org/pdf/1502.03167) |
-| 2. |  | Adam: A method for stochastic optimization (2014), D. Kingma and J. Ba | [[pdf]](http://arxiv.org/pdf/1412.6980) |
-| 3. |  | Layer Normalization (2016), J. Ba et al. | [[pdf]](https://arxiv.org/pdf/1607.06450v1.pdf) |
-| 4. |  | Learning to learn by gradient descent by gradient descent (2016), M. Andrychowicz et al. | [[pdf]](http://arxiv.org/pdf/1606.04474v1) |
-| 5. |  | Batch Renormalization: Towards Reducing Minibatch Dependence in Batch-Normalized Models, S. Ioffe. | [[pdf]](https://arxiv.org/abs/1702.03275) |
-| 6. |  | Understanding deep learning requires rethinking generalization, (2017) C. Zhang et al. | [[pdf]](https://arxiv.org/pdf/1611.03530) |
-| 7. |  | Overcoming catastrophic forgetting in neural networks (2017) J Kirkpatrick et. al, | [[pdf]](https://arxiv.org/pdf/1612.00796.pdf) |
-| 8. |  | An Empirical Investigation of Catastrophic Forgetting in Gradient-Based Neural Networks (2015) I. Goodfellow et. al, |  [[pdf]](https://arxiv.org/pdf/1312.6211.pdf) |
+| Id | Schedule | Presenters | Paper(s) | Link(s) | 
+|----|----------|-----------|----------|---------|
+| 1. |  |  | Batch normalization: Accelerating deep network training by reducing internal covariate shift (2015), S. Loffe and C. Szegedy | [[pdf]](http://arxiv.org/pdf/1502.03167) |
+| 2. |  |  | Adam: A method for stochastic optimization (2014), D. Kingma and J. Ba | [[pdf]](http://arxiv.org/pdf/1412.6980) |
+| 3. |  |  | Layer Normalization (2016), J. Ba et al. | [[pdf]](https://arxiv.org/pdf/1607.06450v1.pdf) |
+| 4. |  |  | Learning to learn by gradient descent by gradient descent (2016), M. Andrychowicz et al. | [[pdf]](http://arxiv.org/pdf/1606.04474v1) |
+| 5. |  |  | Batch Renormalization: Towards Reducing Minibatch Dependence in Batch-Normalized Models, S. Ioffe. | [[pdf]](https://arxiv.org/abs/1702.03275) |
+| 6. |  |  | Understanding deep learning requires rethinking generalization, (2017) C. Zhang et al. | [[pdf]](https://arxiv.org/pdf/1611.03530) |
+| 7. |  |  | Overcoming catastrophic forgetting in neural networks (2017) J Kirkpatrick et. al, | [[pdf]](https://arxiv.org/pdf/1612.00796.pdf) |
+| 8. |  |  | An Empirical Investigation of Catastrophic Forgetting in Gradient-Based Neural Networks (2015) I. Goodfellow et. al, |  [[pdf]](https://arxiv.org/pdf/1312.6211.pdf) |
 
 
 ### Unsupervised / Generative Models
-| Id | Schedule | Paper(s) | Link(s) | 
-|----|----------|----------|---------|
-| 9. |  | Generative adversarial nets (2014), I. Goodfellow et al. | [[pdf]](http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf) |
-| 10. |  | Improved techniques for training GANs (2016), T. Salimans et al. | [[pdf]](http://papers.nips.cc/paper/6125-improved-techniques-for-training-gans.pdf) |
-|     |  | Unsupervised representation learning with deep convolutional generative adversarial networks (2015), A. Radford et al. | [[pdf]](https://arxiv.org/pdf/1511.06434v2) |
-| 11. |  | InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets (2016), Xi Chen et. al, | [[pdf]](https://arxiv.org/pdf/1606.03657.pdf) |
-|     |  | Learning from Simulated and Unsupervised Images through Adversarial Training (2016) Shrivatsava et al., | [[pdf]](https://arxiv.org/pdf/1612.07828.pdf) |
-| 12. |  | Wasserstein GAN, M. Arjovsky et al. | [[pdf]](https://arxiv.org/pdf/1701.07875v1) |
-| 13. |  | Energy-based Generative Adversarial Network (2016) Zhao et. al, | [[pdf]](https://arxiv.org/pdf/1609.03126.pdf) |
+| Id | Schedule | Presenter | Paper(s) | Link(s) | 
+|----|----------|-----------|----------|---------|
+| 9. |  |  | Generative adversarial nets (2014), I. Goodfellow et al. | [[pdf]](http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf) |
+| 10. |  |  | Improved techniques for training GANs (2016), T. Salimans et al. | [[pdf]](http://papers.nips.cc/paper/6125-improved-techniques-for-training-gans.pdf) |
+|     |  |  | Unsupervised representation learning with deep convolutional generative adversarial networks (2015), A. Radford et al. | [[pdf]](https://arxiv.org/pdf/1511.06434v2) |
+| 11. |  |  | InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets (2016), Xi Chen et. al, | [[pdf]](https://arxiv.org/pdf/1606.03657.pdf) |
+|     |  |  | Learning from Simulated and Unsupervised Images through Adversarial Training (2016) Shrivatsava et al., | [[pdf]](https://arxiv.org/pdf/1612.07828.pdf) |
+| 12. |  |  | Wasserstein GAN, M. Arjovsky et al. | [[pdf]](https://arxiv.org/pdf/1701.07875v1) |
+| 13. |  |  | Energy-based Generative Adversarial Network (2016) Zhao et. al, | [[pdf]](https://arxiv.org/pdf/1609.03126.pdf) |
 
 
 ### Network Architecture
