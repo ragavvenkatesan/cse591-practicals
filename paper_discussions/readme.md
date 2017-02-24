@@ -39,7 +39,7 @@
 | 20. |  |  | Semantic image segmentation with deep convolutional nets and fully connected CRFs, L. Chen et al. | [[pdf]](https://arxiv.org/pdf/1412.7062) |
 
 
-## Network compression.
+## Network compression
 | Id | Schedule | Presenter | Paper(s) | Link(s) | 
 |----|----------|-----------|----------|---------|
 | 21. |  |  | Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding (2015), S. Han et al. | [[pdf]](https://arxiv.org/pdf/1510.00149) |
