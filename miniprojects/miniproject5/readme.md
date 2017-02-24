@@ -29,7 +29,7 @@ Using all these tools you will perform the following generality experiments:
 1. Train a network (on a base dataset (one of the three).
 2. Save the network down and note its performance down 
     
-    .. image:: https://latex.codecogs.com/gif.latex?$\Psi(D_i|r)$" title="$\Psi(D_i|r)$
+    .. image:: https://latex.codecogs.com/gif.latex?$\Psi(D_i|r)$
 
 3. Load the parameters and create a new network which uses the parameters of the base layer
     with all the layers but the softmax layer frozen (``learnable = False``).
