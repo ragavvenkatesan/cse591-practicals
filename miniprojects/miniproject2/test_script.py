@@ -1,5 +1,6 @@
 # will ``sample_submission`` to your submission filename.
 
+# from asurite_lastname.networks import xor_net, mlnn
 from amadan4_madan.networks import xor_net, mlnn
 from dataset import xor, waldo
 import numpy as np
