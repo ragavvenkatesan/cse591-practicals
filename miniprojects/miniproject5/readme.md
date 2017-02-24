@@ -50,8 +50,8 @@ Using this technique measure dataset generality of all the dataset with respect 
 among those provided in the ``datasets.py`` file. The network you will use to train them is a two
 convolutional, two dense layer network. The first layer of the network has 20 neurons, of 5X5 with a 
 pooling of 2X2. The second is a 50 neurons of 3X3 with a pooling of 2X2. The third and fourth are 
-dot product layers with 800 nodes each and ``dropout_rate = 0.5``. Apply a $L1$ and $L2$ 
-co-efficient on all layers of $0.0001$. Use RMSPROP with Nesterov momentum. The other properties
+dot product layers with 800 nodes each and ``dropout_rate = 0.5``. Apply a L1 and L2 
+co-efficient on all layers of 0.0001. Use RMSPROP with Nesterov momentum. The other properties
 are upto you. 
 
 The submission for this project is an one-page report. The one-page report will
