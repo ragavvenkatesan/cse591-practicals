@@ -31,6 +31,7 @@ Using all these tools you will perform the following generality experiments:
 
 This can be done for all the three datasets independently and the networks saved down.
 For some new dataset,
+
 3. Load the parameters of a base and create a new network which uses the parameters of a network trained 
     on the base. 
 4. Setit up with all the layers but the softmax layer frozen (``learnable = False``).
