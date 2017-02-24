@@ -1,5 +1,5 @@
-
 Mini Project 3
+--------------
 
 This is an independent project.  In this project you will setup the yann toolbox on your machine
 and run the
