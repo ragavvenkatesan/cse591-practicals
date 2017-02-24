@@ -26,15 +26,15 @@ of parameters that could be supplied to the ``add_layer`` method.
     
 Using all these tools you will perform the following generality experiments:
 
-    1. Train a network (on a base dataset (one of the three).
-    2. Save the network down and note its performance down 
-        .. image:: https://latex.codecogs.com/gif.latex?$\Psi(D_i|r)$" title="$\Psi(D_i|r)$
+1. Train a network (on a base dataset (one of the three).
+2. Save the network down and note its performance down 
+    .. image:: https://latex.codecogs.com/gif.latex?$\Psi(D_i|r)$" title="$\Psi(D_i|r)$
 
-    3. Load the parameters and create a new network which uses the parameters of the base layer
-       with all the layers but the softmax layer frozen (``learnable = False``).
-    4. Train only the softmax layer for this network on a re-train dataset (one of the remaining 
-       two). 
-    5. Note the performance down $\Psi(D_j|D_i)$.
+3. Load the parameters and create a new network which uses the parameters of the base layer
+    with all the layers but the softmax layer frozen (``learnable = False``).
+4. Train only the softmax layer for this network on a re-train dataset (one of the remaining 
+    two). 
+5. Note the performance down $\Psi(D_j|D_i)$.
 
 The generality of the dataset $D_i$ with respect to $D_j$ is $\Psi(D_j|D_i) / \Psi(D_i|r)$. Using 
 this technique measure dataset generality of all the dataset with respect to all the other datasets
