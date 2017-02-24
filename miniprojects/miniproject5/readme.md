@@ -27,7 +27,9 @@ of parameters that could be supplied to the ``add_layer`` method.
 Using all these tools you will perform the following generality experiments:
 
     1. Train a network (on a base dataset (one of the three).
-    2. Save the network down and note its performance down $\Psi(D_i|r)$.
+    2. Save the network down and note its performance down 
+        .. image:: https://travis-ci.org/ragavvenkatesan/yann.svg?branch=master
+            :target: https://www.codecogs.com/eqnedit.php?latex=$\Psi(D_i|r)$
     3. Load the parameters and create a new network which uses the parameters of the base layer
        with all the layers but the softmax layer frozen (``learnable = False``).
     4. Train only the softmax layer for this network on a re-train dataset (one of the remaining 
