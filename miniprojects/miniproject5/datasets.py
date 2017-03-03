@@ -56,7 +56,7 @@ def cook_mnist_bg_normalized(  verbose = 1, **kwargs):
     return dataset
 
 def cook_mnist_rotated_normalized(  verbose = 1, **kwargs):
-        """
+    """
     Wrapper to cook mnist rotated dataset. Will take as input,
 
     Args:
@@ -110,7 +110,7 @@ def cook_mnist_rotated_normalized(  verbose = 1, **kwargs):
     return dataset
 
 def cook_mnist_noisy_normalized(  verbose = 1, **kwargs):
-        """
+    """
     Wrapper to cook mnist noisy dataset. Will take as input,
 
     Args:
@@ -130,7 +130,7 @@ def cook_mnist_noisy_normalized(  verbose = 1, **kwargs):
                    "name"               : 'mnist_noise3',
                    "location"			: '',
                    "mini_batch_size"    : 500,
-                   "mini_batches_per_batch" : (80, 20, 20),
+                   "mini_batches_per_batch" : (20, 4, 4),
                    "batches2train"      : 1,
                    "batches2test"       : 1,
                    "batches2validate"   : 1,
