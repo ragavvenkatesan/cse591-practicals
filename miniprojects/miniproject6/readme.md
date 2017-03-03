@@ -28,9 +28,8 @@ depth of network. Summarize your findings with appropriate figures of the filter
 
 The submission for this project is a three-page report. The three-page report will
 be typeset in the [camera-ready](https://www.computer.org/web/tpami/author)
-style of IEEE TPAMI. The report should contain detailed analysis of your reporting along with a 
-table of all generalities (Essentially 3X3). Using these values determine which is the most 
-general of all datasets.
+style of IEEE TPAMI. The report should contain detailed analysis of your reporting along with the 
+figures of all the filters and other details requested.
 
 
 Installation
@@ -55,7 +54,7 @@ plagiarism checker.
 
 Even when using material from sources with appropriate citations and licensing, be aware of 
 reasonableness and of the areas of the project for which you are borrowing the code or materials. 
-The \emph{core} of the project is expected to be implemented by you, the student and borrowing 
+The core of the project is expected to be implemented by you, the student and borrowing 
 code or material for the central objective of the project, even though explicitly allowed for 
 supporting and auxiliary purposes will be considered unreasonable and dishonest.  Please consult 
 the instructor before borrowing material when unsure. Note that your code might be run through a 

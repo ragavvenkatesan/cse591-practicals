@@ -83,7 +83,7 @@ plagiarism checker.
 
 Even when using material from sources with appropriate citations and licensing, be aware of 
 reasonableness and of the areas of the project for which you are borrowing the code or materials. 
-The \emph{core} of the project is expected to be implemented by you, the student and borrowing 
+The core of the project is expected to be implemented by you, the student and borrowing 
 code or material for the central objective of the project, even though explicitly allowed for 
 supporting and auxiliary purposes will be considered unreasonable and dishonest.  Please consult 
 the instructor before borrowing material when unsure. Note that your code might be run through a 
