@@ -43,6 +43,6 @@
 | Id | Schedule | Presenter | Paper(s) | Link(s) | 
 |----|----------|-----------|----------|---------|
 | 21. |  | Saman Biookaghazadeh and Jajati Routray and Vishal Srivastava  | Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding (2015), S. Han et al. | [[pdf]](https://arxiv.org/pdf/1510.00149) |
-| 22. |  | Anchit Agarwal and Rudra | Unifying distillation and priviliged information (2017) Lopez-paz et. al, | [[pdf]](http://leon.bottou.org/publications/pdf/iclr-2016.pdf) |
+| 22. |  | Anchit Agarwal(13) and Rudra(18) | Unifying distillation and priviliged information (2017) Lopez-paz et. al, | [[pdf]](http://leon.bottou.org/publications/pdf/iclr-2016.pdf) |
 | 23. |  | Jitesh Kamble and Vishal Ishwar Naik and Bahar Shahrokhian Ghahfarokhi | Optimal Brain Damage (1989) Y. LeCun et. al, | [[pdf]] (http://yann.lecun.com/exdb/publis/pdf/lecun-90b.pdf) |
 | 24. |  | Pak Lun Kevin Ding and Duo Lu | On the Number of Linear Regions of Deep Neural Networks (2014) Montúfar, Guido et. al,|  [[pdf]](https://arxiv.org/pdf/1402.1869v2.pdf) |
