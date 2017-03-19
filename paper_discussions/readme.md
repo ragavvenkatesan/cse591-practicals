@@ -3,7 +3,7 @@
 | Id | Schedule | Presenters | Paper(s) | Link(s) | 
 |----|----------|-----------|----------|---------|
 | 1. | 7th April (1) | Uday Shankar Shanthamallu and Xin Ye | Batch normalization: Accelerating deep network training by reducing internal covariate shift (2015), S. Loffe and C. Szegedy | [[pdf]](http://arxiv.org/pdf/1502.03167) |
-|    |  |  | Batch Renormalization: Towards Reducing Minibatch Dependence in Batch-Normalized Models, S. Ioffe. | [pdf](https://arxiv.org/abs/1702.03275) |
+|    |  |  | Batch Renormalization: Towards Reducing Minibatch Dependence in Batch-Normalized Models, S. Ioffe. | [[pdf]](https://arxiv.org/abs/1702.03275) |
 | 2. | 24th March (4) | Anil Motupalli and Trideep Rath  | Adam: A method for stochastic optimization (2014), D. Kingma and J. Ba | [[pdf]](http://arxiv.org/pdf/1412.6980) |
 | 3. | 28th April (1)| Manali Diwakar Trivedi(2) and Praveen ShivaPrasad(5)  | Layer Normalization (2016), J. Ba et al. | [[pdf]](https://arxiv.org/pdf/1607.06450v1.pdf) |
 | 4. | 21st April (2) | Laxmikant Patil(7) and Anurag Solanki(9) | Learning to learn by gradient descent by gradient descent (2016), M. Andrychowicz et al. | [[pdf]](http://arxiv.org/pdf/1606.04474v1) |
@@ -29,7 +29,7 @@
 |----|----------|-----------|----------|---------|
 | 13. | 31st March (3) |  Wenbo Tian and Aman Verma | Identity Mappings in Deep Residual Networks (2016), K. He et al. | [[pdf]](https://arxiv.org/pdf/1603.05027v2.pdf) |
 |     |  |  | Deep residual learning for image recognition (2016), K. He et al. | [[pdf]](http://arxiv.org/pdf/1512.03385) |
-| 14. | 7th April (3) | Rajagopaalan Sethuraman and Kowshik Thopalli | Deep networks with stochastic depth (2016), G. Huang et al., [[pdf]](https://arxiv.org/pdf/1603.09382) |
+| 14. | 7th April (3) | Rajagopaalan Sethuraman and Kowshik Thopalli | Deep networks with stochastic depth (2016), G. Huang et al., | [[pdf]](https://arxiv.org/pdf/1603.09382) |
 | 15. | 14th April (4) | Sangdi Lin and Meredith Moore and Yanzhe Xu | Fully convolutional networks for semantic segmentation (2015), J. Long et al. | [[pdf]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf) |
 | 16. | 21st April (4) | Chia-Yu Hsu and Jau-Yuan Shiao | Spatial transformer network (2015), M. Jaderberg et al., | [[pdf]](http://papers.nips.cc/paper/5854-spatial-transformer-networks.pdf) |
 | 17. | 14th April (3) | Aastha Khanna and Hari Kripa Omalur Chandran and Manan Shah | Densely connected convolutional networks (2016), G. Huang et al. | [[pdf]](https://arxiv.org/pdf/1608.06993v1) |
