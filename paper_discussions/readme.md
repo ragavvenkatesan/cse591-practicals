@@ -33,7 +33,7 @@
 | 15. | 14th April (4) | Sangdi Lin and Meredith Moore and Yanzhe Xu | Fully convolutional networks for semantic segmentation (2015), J. Long et al. | [[pdf]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf) |
 | 16. | 21st April (4) | Chia-Yu Hsu and Jau-Yuan Shiao | Spatial transformer network (2015), M. Jaderberg et al., | [[pdf]](http://papers.nips.cc/paper/5854-spatial-transformer-networks.pdf) |
 | 17. | 14th April (3) | Aastha Khanna and Hari Kripa Omalur Chandran and Manan Shah | Densely connected convolutional networks (2016), G. Huang et al. | [[pdf]](https://arxiv.org/pdf/1608.06993v1) |
-| 18. | 28th April (2)| Prakhar Khandelwal and Stephen Mcaleer  | Steerable CNNs (2017) T.S. Cohen et.al, | [[pdf]](https://openreview.net/pdf?id=rJQKYt5ll) |
+| 18. | 28th April (2)| Prakhar Khandelwal and Stephen Mcaleer and Rudra | Steerable CNNs (2017) T.S. Cohen et.al, | [[pdf]](https://openreview.net/pdf?id=rJQKYt5ll) |
 | 19. | 28th April (3) | Zige Huang and Ragini Sai Sri Lakshmi Sistla and Gaurav Srivastava | Rethinking the inception architecture for computer vision (2016), C. Szegedy et al. | [[pdf]](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.pdf) |
 |     |  |  | Inception-v4, inception-resnet and the impact of residual connections on learning (2016), C. Szegedy et al. | [[pdf]](http://arxiv.org/pdf/1602.07261) |
 | 20. | 28th April (4)  | Lei Guo and Shanshi Huang and Ruibo Liu | Semantic image segmentation with deep convolutional nets and fully connected CRFs, L. Chen et al. | [[pdf]](https://arxiv.org/pdf/1412.7062) |
@@ -43,6 +43,6 @@
 | Id | Schedule | Presenter | Paper(s) | Link(s) | 
 |----|----------|-----------|----------|---------|
 | 21. | 24th March (2) | Saman Biookaghazadeh and Jajati Routray and Vishal Srivastava  | Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding (2015), S. Han et al. | [[pdf]](https://arxiv.org/pdf/1510.00149) |
-| 22. | 7th April (4) | Anchit Agarwal(13) and Rudra(18) | Unifying distillation and priviliged information (2017) Lopez-paz et. al, | [[pdf]](http://leon.bottou.org/publications/pdf/iclr-2016.pdf) |
+| 22. | 7th April (4) | Anchit Agarwal(13) | Unifying distillation and priviliged information (2017) Lopez-paz et. al, | [[pdf]](http://leon.bottou.org/publications/pdf/iclr-2016.pdf) |
 | 23. | 14th April (1) | Jitesh Kamble and Vishal Ishwar Naik and Bahar Shahrokhian Ghahfarokhi | Optimal Brain Damage (1989) Y. LeCun et. al, | [[pdf]](http://yann.lecun.com/exdb/publis/pdf/lecun-90b.pdf) |
 | 24. | 21st April (1) | Pak Lun Kevin Ding and Duo Lu | On the Number of Linear Regions of Deep Neural Networks (2014) Montúfar, Guido et. al,|  [[pdf]](https://arxiv.org/pdf/1402.1869v2.pdf) |
