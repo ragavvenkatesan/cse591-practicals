@@ -9,7 +9,7 @@
 | 5. | Duo Lu and Pak Lun Kevin Ding | Stroke Recognition for Gesture Interface | [proposal](b5-proposal.pd) | 
 | 6. | Manali Diwakar Trivedi | Face and body detection in images of crowds using Recurrent Neural Networks | [proposal](b6-proposal.pdf) |
 | 7. | Ruibo Liu | Generating Chinese Classical Poems with LSTM Algorithm | [proposal](b7-proposal.pdf) |
-| 8. | Shishan Huang and Lei Guo | Binary weighted networks | [proposa](b8-proposal.pdf) |
+| 8. | Shishan Huang and Lei Guo | Binary weighted networks | [proposal](b8-proposal.pdf) |
 | 9. | Amin Salehi and Avinash Reddy Kaitha | Image Tag Recommendation by Exploiting Social-Network Metadata | [proposal](b9-proposal.pdf) | 
 | 10. | Aarav Madan and Laxmikant Patil | Gender and Age Group Prediction using CNN and Transfer Learning | [proposal](b10-proposal.pdf) |
 | 11. | Gopal Rao and Stephen McAleer | Early prediction of potential Lung Cancer cases based on lung scans | [proposal](b11-proposal.pdf) |
