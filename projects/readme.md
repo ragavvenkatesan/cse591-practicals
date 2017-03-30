@@ -13,6 +13,7 @@
 | 9. | Amin Salehi and Avinash Reddy Kaitha | Image Tag Recommendation by Exploiting Social-Network Metadata | [proposal](b9-proposal.pdf) | 
 | 10. | Aarav Madan and Laxmikant Patil | Gender and Age Group Prediction using CNN and Transfer Learning | [proposal](b10-proposal.pdf) |
 | 11. | Gopal Rao and Stephen McAleer | Early prediction of potential Lung Cancer cases based on lung scans | [proposal](b11-proposal.pdf) |
+| 12. | | ZoomNet and Lean Fast R-CNN: Speeding up Single Object Detection | [proposal](b12-proposal.pdf) | 
 
 
 ### Mentored by Ragav
@@ -31,3 +32,4 @@
 | 10. | Aman Verma and Anchit Agarwal | Learn image transformations using AutoEncoders | [proposal](r10-proposal.pdf) |
 | 11. | Praveen Shivaprasad and Uday Shankar | Implementing weight normalization to accelerate the learning of neural networks | [proposal](r11-proposal.pdf) |
 | 12. | Siddhant Prakash and Anurag Solanki| Stereo image generation using Neural Networks | [proposal](r12-proposal.pdf) |
+| 13. | Nishi Shah and Kshama Jain | Improvising Generative Adversarial Networks | [proposal](r13-proposal.pdf) |
