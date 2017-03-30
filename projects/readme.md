@@ -13,7 +13,7 @@
 | 9. | Amin Salehi and Avinash Reddy Kaitha | Image Tag Recommendation by Exploiting Social-Network Metadata | [proposal](b9-proposal.pdf) | 
 | 10. | Aarav Madan and Laxmikant Patil | Gender and Age Group Prediction using CNN and Transfer Learning | [proposal](b10-proposal.pdf) |
 | 11. | Gopal Rao and Stephen McAleer | Early prediction of potential Lung Cancer cases based on lung scans | [proposal](b11-proposal.pdf) |
-| 12. | | ZoomNet and Lean Fast R-CNN: Speeding up Single Object Detection | [proposal](b12-proposal.pdf) | 
+| 12. | Bijan Fakhri and Meredith Moore | ZoomNet and Lean Fast R-CNN: Speeding up Single Object Detection | [proposal](b12-proposal.pdf) | 
 
 
 ### Mentored by Ragav
