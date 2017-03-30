@@ -7,6 +7,9 @@
 | 3. | Rajagopaalan Sethuraman and Vishal Srivastava | Image Search on Mobile Phones made simpler |  [proposal](b3-proposal.pdf) |
 | 4. | Prajwal Pudayal | ASL Command Recognition using Deep Neural Networks | [proposal](b4-proposal.pdf) |
 | 5. | Duo Lu and Pak Lun Kevin Ding | Stroke Recognition | [proposal](b5-proposal.pd) | 
+| 6. | Manali Diwakar Trivedi | Face and body detection in images of crowds using Recurrent Neural Networks | [proposal] (b6-proposal.pdf) |
+| 7. | Ruibo Liu | Generating Chinese Classical Poems with LSTM Algorithm | [proposal](b7-proposal.pdf) |
+
 
 ### Mentored by Ragav
 
@@ -20,5 +23,6 @@
 | 6. | Manan Shah and Aastha Khanna | Estimating Geo Location using Convolutional Neural Networks | [proposal](r6-proposal.pdf) |
 | 7. | Rudra Saha and Prakhar Khandelwal | Detection and Classification of Fishes | [proposal](r7-proposal.pdf) |
 | 8. | Anil Kumar Motupalli and Buddha Puneeth Nandanoor | DeConvolution vs Deep Visualization Evaluation of Deep Visualization Techniques | [proposal](r8-proposal.pdf) |
-
+| 9. | Abhishek Kumar, Hari Kripa Omalur Chandran | Generating Stereo-pair of an image for 2D to 3D Conversion | [prposal](r9-proposal.pdf) | 
+| 10. | Aman Verma and Anchit Agarwal | Learn image transformations using AutoEncoders | [proposal](r10-proposal.pdf) |
 
