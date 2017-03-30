@@ -17,5 +17,8 @@
 | 3. | Vigneshwer Vaidyanathan and Bahar Shahrokhian | Deep Reinforcement Learning in Video Games | [proposal](r3-proposal.pdf) | 
 | 4. | Trevor Barron | Generative Networks to Simulate Environment Dynamics and Improve Sample Efficiency in Reinforcement Learning | [proposal](r4-proposal.pdf) |
 | 5. | Ragini Sistla and Wenbo Tian | Analysis and implementation of transfer learning | [proposal](r5-proposal.pdf) |
+| 6. | Manan Shah and Aastha Khanna | Estimating Geo Location using Convolutional Neural Networks | [proposal](r6-proposal.pdf) |
+| 7. | Rudra Saha and Prakhar Khandelwal | Detection and Classification of Fishes | [proposal](r7-proposal.pdf) |
+| 8. | Anil Kumar Motupalli and Buddha Puneeth Nandanoor | DeConvolution vs Deep Visualization Evaluation of Deep Visualization Techniques | [proposal](r8-proposal.pdf) |
 
 
