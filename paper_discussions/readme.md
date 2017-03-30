@@ -6,7 +6,7 @@
 |    |  |  | Batch Renormalization: Towards Reducing Minibatch Dependence in Batch-Normalized Models, S. Ioffe. | [[pdf]](https://arxiv.org/abs/1702.03275) |
 | 2. | 24th March (4) | Anil Motupalli and Trideep Rath  | Adam: A method for stochastic optimization (2014), D. Kingma and J. Ba | [[pdf]](http://arxiv.org/pdf/1412.6980) |
 | 3. | 28th April (1)| Garret Decker and Manali Diwakar Trivedi(2) and Praveen ShivaPrasad(5)  | Layer Normalization (2016), J. Ba et al. | [[pdf]](https://arxiv.org/pdf/1607.06450v1.pdf) |
-| 4. | 21st April (2) | Laxmikant Patil(7) and Anurag Solanki(9) | Learning to learn by gradient descent by gradient descent (2016), M. Andrychowicz et al. | [[pdf]](http://arxiv.org/pdf/1606.04474v1) |
+| 4. | 21st April (2) | Laxmikant Patil(7) and Anurag Solanki(9) and Ashkan Aleali| Learning to learn by gradient descent by gradient descent (2016), M. Andrychowicz et al. | [[pdf]](http://arxiv.org/pdf/1606.04474v1) |
 | 5. | 24th March (3) | Avinash Reddy Kaitha and Amin Salehi | Understanding deep learning requires rethinking generalization, (2017) C. Zhang et al. | [[pdf]](https://arxiv.org/pdf/1611.03530) |
 | 6. | 31st March (4) | Arun Karthikeyan and Chandrakanth Reddy Mamillapalli | Overcoming catastrophic forgetting in neural networks (2017) J Kirkpatrick et. al, | [[pdf]](https://arxiv.org/pdf/1612.00796.pdf) |
 |    |  |  | An Empirical Investigation of Catastrophic Forgetting in Gradient-Based Neural Networks (2015) I. Goodfellow et. al, |  [[pdf]](https://arxiv.org/pdf/1312.6211.pdf) |
