@@ -14,7 +14,9 @@
 | 10. | Aarav Madan and Laxmikant Patil | Gender and Age Group Prediction using CNN and Transfer Learning | [proposal](b10-proposal.pdf) |
 | 11. | Gopal Rao and Stephen McAleer | Early prediction of potential Lung Cancer cases based on lung scans | [proposal](b11-proposal.pdf) |
 | 12. | Bijan Fakhri and Meredith Moore | ZoomNet and Lean Fast R-CNN: Speeding up Single Object Detection | [proposal](b12-proposal.pdf) | 
-
+| 13. | Prad Kadambi and Gaurav Srivatsava | Robust and Compact Deep Networks Using Information Theory/ Feature-channel reduction in Deep Convolutional neural network | [proposal](b13-proposal.pdf) |
+| 14. | Vatsal Mahajan and Saurabh Singh | Image Understanding via Continuous Questioning and Answering | [proposal](b14-proposal.pdf) |
+| 15. | Kowshik Thopalli and Perikumar Javia | Visual Question Answering – A challenge | [proposal](b15-proposal.pdf) |
 
 ### Mentored by Ragav
 
@@ -33,3 +35,11 @@
 | 11. | Praveen Shivaprasad and Uday Shankar | Implementing weight normalization to accelerate the learning of neural networks | [proposal](r11-proposal.pdf) |
 | 12. | Siddhant Prakash and Anurag Solanki| Stereo image generation using Neural Networks | [proposal](r12-proposal.pdf) |
 | 13. | Nishi Shah and Kshama Jain | Improvising Generative Adversarial Networks | [proposal](r13-proposal.pdf) |
+| 14. | Arun Karthikeyan and Chandrakanth Mamillapalli | Object Recognition and text to Image synthesis using Generative Adversarial Deep Neural Nets | [proposal](r14-proposal.pdf) |
+| 15. | Jitesh Kamble and Vishal Naik | Person Re-Identiﬁcation using Deep Learning | [proposal](r15-proposal.pdf) |
+| 16. | Xin Ye and Zige Huang | Early Action Prediction and Analysis from Frame Glimpses in Video | [proposal](r16-proposal.pdf) |
+| 17. | Garrett Sterling Decker and Jajati Keshari Routray | Deep Background Generation | [proposal](r17-proposal.pdf) |
+
+
+
+
