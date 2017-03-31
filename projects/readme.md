@@ -31,7 +31,7 @@
 | 5. | Ragini Sistla and Wenbo Tian | Analysis and implementation of transfer learning | [proposal](r5-proposal.pdf) |
 | 6. | Manan Shah and Aastha Khanna | Estimating Geo Location using Convolutional Neural Networks | [proposal](r6-proposal.pdf) |
 | 7. | Rudra Saha and Prakhar Khandelwal | Detection and Classification of Fishes | [proposal](r7-proposal.pdf) |
-| 8. | Anil Kumar Motupalli and Buddha Puneeth Nandanoor | DeConvolution vs Deep Visualization Evaluation of Deep Visualization Techniques | [proposal](r8-proposal.pdf) |
+| 8. | Anil Kumar Motupalli and Buddha Puneeth Nandanoor | Improving YANN toolbox with Jupyter notebooks, test coverages | [proposal](r8-proposal.pdf) |
 | 9. | Abhishek Kumar, Hari Kripa Omalur Chandran | Generating Stereo-pair of an image for 2D to 3D Conversion | [proposal](r9-proposal.pdf) | 
 | 10. | Aman Verma and Anchit Agarwal | Learn image transformations using AutoEncoders | [proposal](r10-proposal.pdf) |
 | 11. | Praveen Shivaprasad and Uday Shankar | Implementing weight normalization to accelerate the learning of neural networks | [proposal](r11-proposal.pdf) |
