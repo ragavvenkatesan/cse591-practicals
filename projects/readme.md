@@ -22,8 +22,8 @@
 
 ### Mentored by Ragav
 
-| Id | Members | Title | Link(s) | 
-|----|---------|-------|---------|
+| Id | Members | Title | Link(s) | Interview Schedule| 
+|----|---------|-------|---------|-------------------|
 | 1. | Sangdi Lin, Yanzhe Xu |  Retinal Vessel Segmentation Using Fully Convolutional Neural Networks  | [proposal](r1-proposal.pdf) | Monday, 24th April, 11:45 AM |
 | 2. | Chia-Yu Hsu and Jau-Yuan Shiao | Deep Learning and Visual Computing Image Colorization with Deep Learning | [proposal](r2-proposal.pdf) |
 | 3. | Vigneshwer Vaidyanathan and Bahar Shahrokhian | Deep Reinforcement Learning in Video Games | [proposal](r3-proposal.pdf) | Monday, 24th April, 11:30 AM |
