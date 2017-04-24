@@ -2,8 +2,8 @@
 
 | Id | Members | Title | Link(s) | Interview Schedule| 
 |----|---------|-------|---------|-------------------|
-| 1. | Ashkan Aleali and Saman Biookaghazadeh | KHARITEH: Toward Simultaneous Localization and Mapping Through Deep Learning | [proposal](b1-proposal.pdf) |  Thursday, 27th April, 10:30 AM |
-| 2. | Arindam Mitra and Trideep Rath | Geometry Diagram Understanding | [proposal](b2-proposal.pdf) |
+| 1. | Ashkan Aleali and Saman Biookaghazadeh | KHARITEH: Toward Simultaneous Localization and Mapping Through Deep Learning | [proposal](b1-proposal.pdf) |  Thursday, 27th April, 10:45 AM |
+| 2. | Arindam Mitra and Trideep Rath | Geometry Diagram Understanding | [proposal](b2-proposal.pdf) | Monday, 24th April, 11:30 AM | 
 | 3. | Rajagopaalan Sethuraman and Vishal Srivastava | Image Search on Mobile Phones made simpler |  [proposal](b3-proposal.pdf) |  Thursday, 27th April, 11:15 AM |
 | 4. | Prajwal Pudayal | ASL Command Recognition using Deep Neural Networks | [proposal](b4-proposal.pdf) | Thursday, 27th April, 11:30 AM |
 | 5. | Duo Lu and Pak Lun Kevin Ding | Stroke Recognition for Gesture Interface | [proposal](b5-proposal.pd) |  Thursday, 27th April, 11:45 AM |
@@ -12,9 +12,9 @@
 | 8. | Shishan Huang and Lei Guo | Binary weighted networks | [proposal](b8-proposal.pdf) | Tuesday, 25th April, 11:45 AM |
 | 9. | Amin Salehi and Avinash Reddy Kaitha | Image Tag Recommendation by Exploiting Social-Network Metadata | [proposal](b9-proposal.pdf) |  Thursday, 27th April, 11:00 AM |
 | 10. | Aarav Madan and Laxmikant Patil | Gender and Age Group Prediction using CNN and Transfer Learning | [proposal](b10-proposal.pdf) | Tuesday, 25th April, 11:30 AM |
-| 11. | Gopal Rao and Stephen McAleer | Early prediction of potential Lung Cancer cases based on lung scans | [proposal](b11-proposal.pdf) |
+| 11. | Gopal Rao and Stephen McAleer | Early prediction of potential Lung Cancer cases based on lung scans | [proposal](b11-proposal.pdf) | 
 | 12. | Bijan Fakhri and Meredith Moore | ZoomNet and Lean Fast R-CNN: Speeding up Single Object Detection | [proposal](b12-proposal.pdf) |  Thursday, 27th April, 10:30 AM |
-| 13. | Prad Kadambi and Gaurav Srivatsava | Robust and Compact Deep Networks Using Information Theory/ Feature-channel reduction in Deep Convolutional neural network | [proposal](b13-proposal.pdf) |
+| 13. | Prad Kadambi and Gaurav Srivatsava | Robust and Compact Deep Networks Using Information Theory/ Feature-channel reduction in Deep Convolutional neural network | [proposal](b13-proposal.pdf) |  Thursday, 27th April, 10:15 AM |
 | 14. | Vatsal Mahajan and Saurabh Singh | Image Understanding via Continuous Questioning and Answering | [proposal](b14-proposal.pdf) | Thursday, 27th April, 10:00 AM |
 | 15. | Kowshik Thopalli and Perikumar Javia | Visual Question Answering – A challenge | [proposal](b15-proposal.pdf) |
 | 16. | Jitesh Kamble and Vishal Naik | Person Re-Identiﬁcation using Deep Learning | [proposal](r15-proposal.pdf) | Tuesday, 25th April, 10:45 AM |
