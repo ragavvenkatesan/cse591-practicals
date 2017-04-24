@@ -30,7 +30,7 @@
 | 4. | Trevor Barron | Generative Networks to Simulate Environment Dynamics and Improve Sample Efficiency in Reinforcement Learning | [proposal](r4-proposal.pdf) | Wednesday, 26th April, 12:45 PM |
 | 5. | Ragini Sistla and Wenbo Tian | Analysis and implementation of transfer learning | [proposal](r5-proposal.pdf) | Monday, 24th April, 12:30 PM |
 | 6. | Manan Shah and Aastha Khanna | Estimating Geo Location using Convolutional Neural Networks | [proposal](r6-proposal.pdf) | Wednesday, 26th April, 11:30 AM |
-| 7. | Rudra Saha and Prakhar Khandelwal | Detection and Classification of Fishes | [proposal](r7-proposal.pdf) | |
+| 7. | Rudra Saha and Prakhar Khandelwal | Detection and Classification of Fishes | [proposal](r7-proposal.pdf) | Monday, 24th April, 11:15 AM|
 | 8. | Anil Kumar Motupalli and Buddha Puneeth Nandanoor | Improving YANN toolbox with Jupyter notebooks, test coverages | [proposal](r8-proposal.pdf) | Monday, 24th April, 12:45 PM |
 | 9. | Abhishek Kumar, Hari Kripa Omalur Chandran | Generating Stereo-pair of an image for 2D to 3D Conversion | [proposal](r9-proposal.pdf) | Wednesday, 26th April, 12:00 PM |
 | 10. | Aman Verma and Anchit Agarwal | Learn image transformations using AutoEncoders | [proposal](r10-proposal.pdf) | Wednesday, 26th April, 12:30 PM |
