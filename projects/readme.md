@@ -34,7 +34,7 @@
 | 8. | Anil Kumar Motupalli and Buddha Puneeth Nandanoor | Improving YANN toolbox with Jupyter notebooks, test coverages | [proposal](r8-proposal.pdf) | Monday, 24th April, 12:45 PM |
 | 9. | Abhishek Kumar, Hari Kripa Omalur Chandran | Generating Stereo-pair of an image for 2D to 3D Conversion | [proposal](r9-proposal.pdf) | Wednesday, 26th April, 12:00 PM |
 | 10. | Aman Verma and Anchit Agarwal | Learn image transformations using AutoEncoders | [proposal](r10-proposal.pdf) | Wednesday, 26th April, 12:30 PM |
-| 11. | Praveen Shivaprasad and Uday Shankar | Implementing weight normalization to accelerate the learning of neural networks | [proposal](r11-proposal.pdf) | Monday, 24th April, 11:15 |
+| 11. | Praveen Shivaprasad and Uday Shankar | Implementing weight normalization to accelerate the learning of neural networks | [proposal](r11-proposal.pdf) | Friday, April 28th 12:15 PM |
 | 12. | Siddhant Prakash and Anurag Solanki| Stereo image generation using Neural Networks | [proposal](r12-proposal.pdf) | Wednesday, 26th April, 11:45 AM |
 | 13. | Nishi Shah and Kshama Jain | Improvising Generative Adversarial Networks | [proposal](r13-proposal.pdf) | Wednesday, 26th April, 12:15 PM |
 | 14. | Arun Karthikeyan and Chandrakanth Mamillapalli | Object Recognition and text to Image synthesis using Generative Adversarial Deep Neural Nets | [proposal](r14-proposal.pdf) | Wednesday, 26th April, 11:15 AM |
