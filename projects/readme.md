@@ -6,8 +6,8 @@
 | 2. | Arindam Mitra and Trideep Rath | Geometry Diagram Understanding | [proposal](b2-proposal.pdf) | Monday, 24th April, 11:30 AM | 
 | 3. | Rajagopaalan Sethuraman and Vishal Srivastava | Image Search on Mobile Phones made simpler |  [proposal](b3-proposal.pdf) |  Thursday, 27th April, 11:15 AM |
 | 4. | Prajwal Pudayal | ASL Command Recognition using Deep Neural Networks | [proposal](b4-proposal.pdf) | Thursday, 27th April, 11:30 AM |
-| 5. | Duo Lu and Pak Lun Kevin Ding | Stroke Recognition for Gesture Interface | [proposal](b5-proposal.pd) |  Thursday, 27th April, 11:45 AM |
-| 6. | Manali Diwakar Trivedi | Face and body detection in images of crowds using Recurrent Neural Networks | [proposal](b6-proposal.pdf) | Tuesday, 25th April, 11:45 AM |
+| 5. | Duo Lu and Pak Lun Kevin Ding | Stroke Recognition for Gesture Interface | [proposal](b5-proposal.pd) |  Tuesday, 27th April, 11:45 AM |
+| 6. | Manali Diwakar Trivedi | Face and body detection in images of crowds using Recurrent Neural Networks | [proposal](b6-proposal.pdf) | Thursday, 25th April, 11:45 AM |
 | 7. | Ruibo Liu | Generating Chinese Classical Poems with LSTM Algorithm | [proposal](b7-proposal.pdf) | Thursday, 27th April, 10:15 AM |
 | 8. | Shishan Huang and Lei Guo | Binary weighted networks | [proposal](b8-proposal.pdf) | Tuesday, 25th April, 11:45 AM |
 | 9. | Amin Salehi and Avinash Reddy Kaitha | Image Tag Recommendation by Exploiting Social-Network Metadata | [proposal](b9-proposal.pdf) |  Thursday, 27th April, 11:00 AM |
